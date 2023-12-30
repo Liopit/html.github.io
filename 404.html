@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Eduardo Navolar"
+    <title></title>
+    <link rel="stylesheet" href="img.css">
+    <link rel="stylesheet" href="grinch.png">
+
+    
+<style>
+    body {
+        background-color: rgb(219, 95, 142);
+    }
+    .painel {
+        background-color: rgb(255, 255, 255);
+        margin: auto;
+        width: 500px;
+        height: 500px;
+        border-radius: 20px;  
+        text-align: center;
+        padding-top: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    #sim{
+        height: 60px;
+        width: 60px;
+        background-color: rgb(161, 51, 51);
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-left: -70px;
+    }
+
+    #nao{
+        position: absolute;
+        height: 60px;
+        width: 60px;
+        background-color: rgb(161, 51, 51);
+        border: 2px solid white;
+        border-radius: 10px;
+        margin-left: 10px;
+    }
+    .foto {
+        border-radius: 80px;
+        margin-top: 40px;
+    }</style>
+</head>
+
+<body>
+    
+    <div class="painel">
+    <h2>Oi Grinch!!!</h2>
+    <img src="grinch.png" class="grinch">
+    <img src="https://gifman.net/wp-content/uploads/2019/06/ursinhos-fofos-coracoes.gif">
+    <h2>Você aceita namorar comigo?</h2>
+
+    <a href="https://youtu.be/RVPr_ILWbZ0"><button id="sim"> Sim! </button></a>
+    <button onmouseover="fuja()" id="nao"> Não! </button>
+    </div>
+
+</body>
+</html>
